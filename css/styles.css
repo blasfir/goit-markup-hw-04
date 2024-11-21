@@ -196,13 +196,19 @@ img {
 }
 .t-s-dv {
     padding: 32px 16px;
+    background-color: #fff;
 }
-.icons {
+.dv-list {
     margin-top: 8px;
     display: flex;
     gap: 24px;
 }
-.icoon {
+.liiiiist {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+.t-s-svg {
+    padding: 12px;
 }
 .t-f-texxt {
     margin-bottom: 72px;
@@ -215,7 +221,6 @@ img {
 }
 .list {
     width: calc((100% - 72px) / 4)
-    background-color:#FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -235,7 +240,24 @@ img {
 }  
 .liist:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}                                                                                            
+} 
+.box {
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .overlay {
+    transform: translateX(0);
+  }  
+.overlay {
+    background-color: #4d5ae5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    transform: translateY(100%); 
+    transition: transform 250ms ease-in-out; 
+}                                                                                           
 .f-s-text {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
@@ -282,4 +304,12 @@ img {
 .ftr-list {
     display: flex;
     margin-top: 16px;
+    gap: 16px;
+}
+.liiiist {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+.ftr-svg {
+    padding: 8px;
 }
