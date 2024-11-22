@@ -104,7 +104,7 @@ img {
 }
 .first-section {
    background-color: #2E2F42;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/img.1.jpg);;
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/img.1.jpg);
    color: #FFFFFF;
    padding: 188px 0;
    background-repeat: no-repeat;
@@ -274,7 +274,7 @@ img {
     position: relative;
     overflow: hidden;
 }
-.box:hover .overlay {
+.liist:hover .overlay {
     transform: translateX(0%);
   }  
 .overlay {
@@ -305,7 +305,9 @@ img {
 .ftr-container {
     align-items: baseline;
     display: flex;
-    gap: 120px;
+}
+.ftr-dv {
+    margin-right: 120px;
 }
 .footer-paragraph {
     transition-duration: 250ms;
